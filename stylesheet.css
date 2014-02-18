@@ -1,0 +1,76 @@
+body {
+  background: #015367;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'Lato', sans-serif;
+}
+
+h1 {
+  font-weight: 100;
+  color: #206676;
+  font-size: 3em;
+  margin: 0.2em 0;
+}
+
+h2, h3 {
+  color: #206676;
+}
+
+h4  {
+  color: #38B2CE;
+}
+
+a {
+  text-decoration: none;
+  color: #38B2CE;
+}
+
+a:hover {
+  color: #206676;
+}
+
+section {
+  clear: both;
+  overflow: hidden;
+}
+
+#resume {
+  width: 800px;
+  margin: 50px auto;
+  border-top: 20px solid #38B2CE;
+  border-bottom: 20px solid #38B2CE;
+  padding: 20px;
+  background: #FFF;
+}
+
+#name h2 {
+  color: #38B2CE;
+  font-size: 1.3em;
+}
+
+#name {
+  float: left;
+  width: 500px
+}
+
+#contact-info {
+  float: right;
+  width: 300px;
+}
+
+.left-panel {
+  float: left;
+  width: 300px;
+}
+
+.right-panel {
+  float: right;
+  width: 500px;
+}
+
+.text-right {
+  text-align: right;
+}
